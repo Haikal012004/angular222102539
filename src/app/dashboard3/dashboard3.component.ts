@@ -4,12 +4,12 @@ import { SidebarComponent } from "../sidebar/sidebar.component";
 import { FooterComponent } from "../footer/footer.component";
 
 @Component({
-  selector: 'app-dashboard',
+  selector: 'app-dashboard3',
   standalone: true,
   imports: [HeaderComponent, SidebarComponent, FooterComponent],
-  templateUrl: './dashboard.component.html',
-  styleUrl: './dashboard.component.css'
+  templateUrl: './dashboard3.component.html',
+  styleUrl: './dashboard3.component.css'
 })
-export class DashboardComponent {
+export class Dashboard3Component {
 
 }
